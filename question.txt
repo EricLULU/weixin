@@ -1,0 +1,5 @@
+问题记录：
+1.从网页直接提取的url不能使用，正在考虑处理方法  --> 其为动态网页，不能使用requests 的方法来获取，应该使用动态的方式来获取，比如selenium
+2.比较是否是相同的类型的方法
+int，float，bool，complex，str(字符串)，list，dict(字典)，set，tuple
+
